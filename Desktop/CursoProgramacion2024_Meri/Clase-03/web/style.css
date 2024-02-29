@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script|Open+Sans:300,400italic,800italic,400,800);
+
+body {
+    background-color: #E6E6E6;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1,
+h2 {
+    color: #444;
+    font-size: 3em;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 14px;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+.conteiner-box-principal {
+    width: 95%;
+    height: 50%;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 50%;
+}
+
+button {
+    width: 100%;
+    border: none;
+    font-family: inherit;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: left;
+    padding: 18px;
+    margin: 7.2px 0;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #0090C5;
+    cursor: pointer;
+}
+.secundary-colors {
+    color: #696969;
+    background-color: #E6E6E6;  
+}
+#cuerpo-hero {
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    padding: 64px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+
+}
+#hero-text-container {
+    width: 60%;
+
+}
+#hero-button-container {
+    display: flex;
+    width: 35%;
+    border: none;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: center;
+}

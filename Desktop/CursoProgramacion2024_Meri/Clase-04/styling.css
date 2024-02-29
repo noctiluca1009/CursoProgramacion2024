@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script|Open+Sans:300,400italic,800italic,400,800);
+
+body {
+    background-color: #e6e6e6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.25em;
+    font-family: 'Oleo Script';
+    font-size: 3em;
+    border-radius: 0.25em;
+    background-color: #ff4486;
+    color: #fff;
+}
+
+span {
+    margin-left: 2em;
+    font-weight: 800;
+    color: #444;
+}
+
+.list-container {
+    display: flex;
+    Flex-direction: row;
+    list-style: none;
+}
+
+#first-button {
+    border-radius: 0.70em;
+    background-color: #444;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+li {
+    margin-right: 1em;
+    font-weight: 800;
+    padding: 7px;
+}
